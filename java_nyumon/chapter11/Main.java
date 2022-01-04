@@ -16,5 +16,12 @@ public class Main {
 
 		System.out.println(cp.getPrice());
 
+		System.out.println(1000000);
+		String msg1 = "Hello";
+		String msg2 = new String(msg1);
+		System.out.println(msg1.equals(msg2));
+		System.out.println("Hello" == "Hell");
+		System.out.println("Hello" + a);
+
 	}
 }
